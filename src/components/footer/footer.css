@@ -1,0 +1,41 @@
+
+.socials li {
+    display: inline-block;
+}
+
+.socials li img {
+    width: 25px;
+    display: inline-block;
+    transition-duration: 0.2s;
+}
+
+.socials li img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.socials li:nth-child(2) {
+    margin-left: 20px;
+}
+
+.footerLogo {
+    width: 20%;
+    height: 10%;
+}
+
+.footerContainer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .footerLogo {
+        width: 40%;
+        height: 30%;
+    }
+    .footerContainer {
+        padding: 10px;
+    }
+}

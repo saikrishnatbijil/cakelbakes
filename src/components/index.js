@@ -1,0 +1,6 @@
+export { default as Navbar } from './navbar/nav'
+export { default as Hero } from './hero/hero'
+export { default as Order } from './order/order'
+export { default as Shop } from './shop/shop'
+export { default as Item } from './item/item'
+export { default as Footer } from './footer/footer'

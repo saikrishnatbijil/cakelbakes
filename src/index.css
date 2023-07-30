@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --co-bg: #FFE7ED;
+  --co-main: #FF0066;
+  --co-black: #1E1E1E;
+
+  font-family: 'Poppins';
+}
+
+.marginContainer {
+  width: 100%;
+}
+
+.margin {
+  width: 80%;
+  margin: auto;
+}
+
+.bg {
+  background-color: var(--co-bg);
+}

@@ -1,0 +1,21 @@
+
+.shopContainer {
+    width: 100%;
+    margin-top: 13%;    
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.itemList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+    .shopContainer {
+        margin-top: 20%;    
+    }
+}

@@ -1,0 +1,41 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.material-symbols-rounded {
+    cursor: pointer;
+}
+
+.nav h3 {
+    color: white;
+    background-color: var(--co-main);
+    padding: 2%;
+    border-radius: 10%;
+    transition-duration: 0.3s;
+}
+
+.nav h3:hover {
+    cursor: pointer;
+    background-color: var(--co-bg);
+    color: var(--co-main);
+}
+
+.input {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 0px;
+    border: solid var(--co-bg);
+    color: var(--co-main);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.input:last-child {
+    margin-bottom: 30px;
+}
